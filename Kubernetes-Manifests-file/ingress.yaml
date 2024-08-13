@@ -10,8 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: k8s-threetie-mainlb-11c5700e30-205806197.us-east-1.elb.amazonaws.com
-      http:
+    - http:
         paths:
           - path: /api
             pathType: Prefix
